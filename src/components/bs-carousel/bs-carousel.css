@@ -1,0 +1,10 @@
+ej-bscarousel { display: block; }
+
+[data-bs-ride="carousel"] {
+    width: 50%;
+    margin: 80px auto 160px;
+}
+
+.carousel-indicators { list-style-type: none; }
+
+.hide { display: none; }

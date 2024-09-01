@@ -1,0 +1,51 @@
+:root {
+    --nav-distace: 8%;
+}
+
+ej-carousel {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+ej-carousel .carousel__list {
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+ej-carousel .carousel__item { display: none; }
+ej-carousel .carousel__item.active { display: block; }
+
+ej-carousel .carousel__title {
+    width: 80%;
+    text-align: center;
+    color: white;
+    background-color: rgb(0 0 0 / 78%);
+    font-size: 30px;
+    position: absolute;
+    top: 8%;
+    padding: 18px 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    border-radius: 6px;
+}
+
+ej-carousel .carousel__image { text-align: center; }
+ej-carousel .carousel__image img { height: 700px; }
+
+ej-carousel .carousel__nav {
+    font-size: 0;
+    position: absolute;
+    bottom: 50%;
+}
+
+ej-carousel .nav__prev { left: var(--nav-distace); }
+ej-carousel .nav__next { right: var(--nav-distace); }
+
+ej-carousel .carousel__nav:before {
+    font-size: 50px;
+    color: white;
+}

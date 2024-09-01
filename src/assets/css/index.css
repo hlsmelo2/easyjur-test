@@ -1,0 +1,35 @@
+.easyjur {
+    width: 100%;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.easyjur__title {
+    font-size: 2.5em;
+    margin-top: 30px;
+}
+
+.easyjur__subtitle {
+    font-size: 2.5em;
+    margin: 15px 0 20px;
+}
+
+ej-carousel .carousel__image img,
+ej-bscarousel,
+ej-bscarousel .carousel-item img { max-height: 700px; }
+
+ej-bscarousel {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 767px) {
+    .easyjur {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .easyjur__title { font-size: 2.5em; }
+    .easyjur__subtitle { font-size: 2.5em; }
+}
